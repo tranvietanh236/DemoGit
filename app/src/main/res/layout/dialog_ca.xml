@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    tools:ignore="HardcodedText,SpUsage">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:background="?android:attr/colorPressedHighlight"
+        android:text="Chon Ca lam Viec:" />
+
+    <TextView
+        android:id="@+id/textView_Sang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Sang" />
+
+    <TextView
+        android:id="@+id/textView_Chieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Chieu"
+         />
+
+    <TextView
+        android:id="@+id/textView_Toi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Toi" />
+</LinearLayout>

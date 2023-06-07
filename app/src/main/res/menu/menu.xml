@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="HardcodedText">
+
+    <item android:title="Them"
+        android:id="@+id/them"/>
+    <item android:title="sua"
+        android:id="@+id/Sua"/>
+    <item android:title="Xoa"
+        android:id="@+id/xoa"
+         />
+</menu>
